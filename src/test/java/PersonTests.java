@@ -7,7 +7,7 @@ public class PersonTests
 {
 
     @Test
-    public void constructorTest()
+    public void testconstructorTest()
     {
         Person testMe = new Person("Joe", "Smith");
         assertAll(

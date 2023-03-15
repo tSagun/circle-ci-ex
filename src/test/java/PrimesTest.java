@@ -10,7 +10,7 @@ public class PrimesTest
 {
     @ParameterizedTest
     @ValueSource(ints = {-1, 0, 1})
-    public void primesBoundary(int number)
+    public void testprimesBoundary(int number)
     {
         PrimalityChecker checker = new PrimalityChecker();
         assertFalse(checker.isPrime(number));
@@ -18,7 +18,7 @@ public class PrimesTest
 
     @ParameterizedTest
     @ValueSource(ints = {2, 3, 5, 7})
-    public void primesTest(int number)
+    public void testprimesTest(int number)
     {
         PrimalityChecker checker = new PrimalityChecker();
         assertTrue(checker.isPrime(number));
