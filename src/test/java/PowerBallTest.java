@@ -3,7 +3,7 @@ import random.PowerBall;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class PowerBallTests
+public class PowerBallTest
 {
     @RepeatedTest(5)
     public void testrangeTest()
